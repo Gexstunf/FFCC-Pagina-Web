@@ -39,10 +39,31 @@
     cursor: pointer;
 }
 
+.underline:hover {
+    text-decoration: underline;
+}
+
 .item:hover {
     cursor: pointer;
 }
 
 .button:hover {
     cursor: pointer;
+}
+
+.hover-glow:hover {
+    box-shadow: 0 0 12px #FDDF37;
+    transform: translateY(-2px);
+}
+
+.detail-logo::before {
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid rgb(204, 0, 27);
+    margin-right: 8px;
+    margin-top: -2px;
 }

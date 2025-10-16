@@ -1,10 +1,10 @@
 import React from "react";
 
-export const Line = () => {
+export const Line = ({ width = "100%", height="2px", color="grey", vertical=false }) => {
     const lineStyle = {
-        height: "2px",
-        width: "100%",
-        backgroundColor: "grey"
+        height: height,
+        width: width,
+        backgroundColor: color
     }
     
     return (

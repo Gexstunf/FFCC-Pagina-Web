@@ -11,7 +11,8 @@ export const UserButton = ({
         height: "50%",
         width: solid ? "45%" : "35%",
         backgroundColor: color,
-        border: solid ? "" : "1px solid grey"
+        border: solid ? "" : "1px solid grey",
+        transition: "box-shadow 0.3s ease, transform 0.2s ease"
     }
     
     const imgStyle = {
@@ -23,7 +24,7 @@ export const UserButton = ({
     }
 
     return (
-        <div style={style} className={"br-40 flex items-center justify-center button"}>
+        <div style={style} className={"br-40 flex items-center justify-center button hover-glow"}>
             <p className={`font-responsive-medium flex items-center ${solid ? "font-bold" : ""}`}>
                 {text}
             </p>

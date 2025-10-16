@@ -25,6 +25,10 @@ function App() {
         height: "100%",
     }
     
+    const lineStyle = {
+        height: '4vh',
+    }
+    
     return (
         <div style={rootStyle}>
             <div style={marginStyle}>
@@ -33,6 +37,9 @@ function App() {
                 <Title/>
                 <NeckOptions/>
                 <CatalogueOptions/>
+                <div style={lineStyle} className={"width flex align-end justify-center"}>
+                    <Line width={"85%"} height={"1px"} color={"lightgray"} />
+                </div>
                 <MainContent/>
             </div>
         </div>

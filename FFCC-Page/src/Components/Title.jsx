@@ -21,8 +21,7 @@ export const Title = () => {
     return (
         <div style={elementStyle} className={"flex column align-center justify-center border-detail"}>
             <div style={contentStyle} className={"flex align-center w-content space-between"}>
-                <h1 className={"font-responsive-big font-title"} style={h1Style}>LA NACIÓN</h1>
-                
+                <h1 className={"font-responsive-big font-title"} style={h1Style}>EL MANDARÍN</h1>
                 <div className={"w-30 height flex align-center space-between"}>
                     <UserButton color={"#FDDF37"} text={"Suscribite por $6767"}/>
                     <UserButton solid={false} text={"Ingresar"}/>
