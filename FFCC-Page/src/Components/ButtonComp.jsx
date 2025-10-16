@@ -24,7 +24,7 @@ export const UserButton = ({
     }
 
     return (
-        <div style={style} className={"br-40 flex items-center justify-center button hover-glow"}>
+        <div style={style} className={`br-40 flex items-center justify-center button ${solid ? "hover-glow" : ""}`}>
             <p className={`font-responsive-medium flex items-center ${solid ? "font-bold" : ""}`}>
                 {text}
             </p>
