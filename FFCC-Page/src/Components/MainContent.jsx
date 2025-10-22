@@ -14,7 +14,7 @@ export const MainContent = () => {
         <div style={style} className={"width flex justify-center"}>
             <div className={"w-content flex align-center space-between"}>
                 <BigNews/>
-                <Line height={"100%"} width={"1px"} color={"lightgrey"}/>
+                <Line height={"100%"} width={"0.5px"} color={"lightgrey"}/>
                 <NewsBlock/>
             </div>
         </div>

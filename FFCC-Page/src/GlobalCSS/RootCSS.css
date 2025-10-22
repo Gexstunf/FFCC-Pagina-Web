@@ -8,6 +8,13 @@
     height: 100%;
 }
 
+.min-h-100 {
+    min-height: 100%;
+}
+
+.max-h-15vh {
+    max-height: 45vh;
+}
 .width {
     width: 100%;
 }
@@ -48,6 +55,10 @@
     top: 7.5%;
 }
 
+.abs-actual-middle {
+    top: 47%;
+}
+
 .w-content {
     width: 80%;
 }
@@ -75,6 +86,14 @@
     width: 50%;
 }
 
+.w-90 {
+    width: 90%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
 .w-30 {
     width: 30%;
 }
@@ -97,6 +116,10 @@
 
 .h-70 {
     height: 70%;
+}
+
+.h-90 {
+    height: 90%;
 }
 
 .h-40 {
@@ -181,6 +204,26 @@
 
 .font-responsive-medium-huge {
     font-size: 3.5vh;
+}
+
+.font-r-3-5vh {
+    font-size: 3.5vh;
+}
+
+.font-r-3vh {
+    font-size: 3vh;
+}
+
+.font-r-2-5vh {
+    font-size: 2.5vh;
+}
+
+.font-r-2vh {
+    font-size: 2vh;
+}
+
+.font-r-1-5vh {
+    font-size: 1.5vh;
 }
 
 .font-header {

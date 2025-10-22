@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Line = ({ width = "100%", height="2px", color="grey", vertical=false }) => {
+export const Line = ({ classes = "", width = "100%", height="2px", color="grey", vertical=false }) => {
     const lineStyle = {
         height: height,
         width: width,
@@ -8,7 +8,7 @@ export const Line = ({ width = "100%", height="2px", color="grey", vertical=fals
     }
     
     return (
-        <div style={lineStyle}>
+        <div style={lineStyle} className={classes}>
         </div>
     )
 }
