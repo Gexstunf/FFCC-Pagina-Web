@@ -24,7 +24,8 @@ export const NewsBlock = () => {
             </div>
             <Line classes={"absolute abs-actual-middle"} height={"0.5px"}/>
             <div className={"width h-50 flex row"}>
-                <Block/>
+                <Block
+                />
                 <Block 
                     right={true}
                 />
@@ -36,7 +37,7 @@ export const NewsBlock = () => {
 export const Block = ({
     right = false,
     title = "Cayo en cana papanuel",
-    txt = "Testigos dicen que se estaba clavando un pedazo de fazo enfrente de los niños y ofrecia drogas psicoactivas",
+    txt = "Testigos dicen que se estaba choreando los regalos enfrente de los niños",
     imgsrc = "https://media.minutouno.com/p/a4b9cb3dbcd88a1c88acee30bacbc2e1/adjuntos/150/imagenes/025/808/0025808103/610x0/smart/papa-noel-preso.png"
 }) => {
     return (

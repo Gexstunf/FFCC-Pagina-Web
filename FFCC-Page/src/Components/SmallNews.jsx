@@ -2,8 +2,8 @@ import react from "react"
 
 export const SmallNews = ({
     imgsrc="",
-    title="Cayo en cana papanuel",
-    text ="Testigos dicen que se estaba clavando un pedazo de fazo enfrente de los niños y ofrecia drogas psicoactivas"
+    title="",
+    text =""
                           }) => {
 
     const imgStyle = {
