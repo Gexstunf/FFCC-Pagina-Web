@@ -4,6 +4,9 @@ export const SmallNews = ({
     imgsrc="",
     title="",
     text ="",
+    notaTitle="",
+    notaText="",
+    notaDate="",
     onShowPopup,
                           }) => {
 
@@ -12,13 +15,17 @@ export const SmallNews = ({
     }
 
     const handleClick = () => {
-        onShowPopup();
+        onShowPopup(
+            notaText,
+            notaTitle,
+            notaDate
+        );
     }
 
     const letterStyle = {
         color: "#d80026"
     }
-
+    
     const textStyle = {
         marginTop: "10px",
         fontSize: "2vh"

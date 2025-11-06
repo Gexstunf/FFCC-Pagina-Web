@@ -239,6 +239,22 @@
     font-family: Playfair Display, serif;
 }
 
+.scrollable-y {
+    overflow-y: auto;
+    padding-right: 10px; /* optional */
+    scrollbar-width: thin; /* Firefox */
+}
+
+.scrollable-y::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrollable-y::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+
 img {
     height: 50px; 
     object-fit: contain;

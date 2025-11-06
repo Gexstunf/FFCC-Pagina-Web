@@ -11,14 +11,12 @@ import {HeadOptions} from "./Components/HeadOptionsComp.jsx";
 import {CatalogueOptions, NeckOptions} from "./Components/NeckOptionsComp.jsx";
 import {NotaComp} from "./Components/NotaComp.jsx";
 
-let showNota = false;
-
 function App() {
     const [popupData, setPopupData] = useState(null)
 
-    const openPopup = (title, text) => {
-        console.log(title, text);
-        setPopupData({ title, text });
+    const openPopup = (title, text, date) => {
+        console.log(title, text, date);
+        setPopupData({ title, text, date });
     };
 
     const closePopup = () => {
@@ -55,7 +53,7 @@ function App() {
                 </div>
                 <MainContent onShowPopup={openPopup}/>
             </div>
-            {popupData != null ? <NotaComp text={popupData.text} title={popupData.title}/> : null}
+            {popupData != null ? <NotaComp text={popupData.text} title={popupData.title} date={popupData.date}/> : null}
         </div>
     )
 }

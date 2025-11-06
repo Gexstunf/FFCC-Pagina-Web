@@ -4,6 +4,7 @@ import React from "react";
 export const NotaComp = ({
     text = "",
     title = "",
+    date="xxx xxx"
                          }) => {
     
     const style = {
@@ -24,9 +25,14 @@ export const NotaComp = ({
             <span className={"font-responsive-medium-huge font-title font-header"}>
                 {title}
             </span>
-            <p style={letterStyle} className={"font-bold"}>
-                {text}
-            </p>
+            <span style={letterStyle} className={"font-responsive-medium-big font-subtitle"}>
+                {date}
+            </span>
+            <div className={"scrollable-y"}>
+                <p style={letterStyle} className={"font-bold"}>
+                    {text}
+                </p>
+            </div>
         </div>
     )
 }

@@ -32,7 +32,8 @@ export const BigNews = ({
             "Mientras los técnicos del Ferrocarril General San Martín trabajan en reparar el desperfecto que interrumpió el servicio, la discusión trasciende las vías del tren: ¿puede la Argentina sostener su crecimiento sin depender del extranjero?\n" +
             "La respuesta, según la visión oficial, es clara:\n" +
             "“Sólo una nación que produce lo que necesita puede ser verdaderamente libre.”\n" +
-            "Con la mirada puesta en el porvenir, el país continúa avanzando por los rieles de la industria, convencido de que en sus fábricas, talleres y obreros reside el futuro de una Argentina moderna, soberana e industrializada.\n"
+            "Con la mirada puesta en el porvenir, el país continúa avanzando por los rieles de la industria, convencido de que en sus fábricas, talleres y obreros reside el futuro de una Argentina moderna, soberana e industrializada.\n",
+            "Buenos Aires, 1946\n"
         );
     }
     
