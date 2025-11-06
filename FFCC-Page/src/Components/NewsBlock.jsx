@@ -2,7 +2,9 @@ import react from "react"
 import {SmallNews} from "./SmallNews.jsx";
 import {Line} from "./LineComponent.jsx";
 
-export const NewsBlock = () => {
+export const NewsBlock = ({
+                              onShowPopup
+                          }) => {
     
     const styleBorder = {
         borderBottom: "1px solid lightgray",
@@ -11,11 +13,13 @@ export const NewsBlock = () => {
         <div className={"w-49 flex column height relative"}>
             <div className={"width h-50 flex row"}>
                 <Block
+                    onShowPopup={onShowPopup}
                     title={"Trabajadores en huelga"}
                     txt={"Protesta de solidaridad entre trabajadores, termina con fuertes amenazas y 2 muertos"}
                     imgsrc={"https://serajusticia.ar/wp-content/uploads/2021/01/Manifestacion-del-6-de-diciembre-de-1961-en-solidaridad-con-los-obreros-ferroviarios-despedidos.jpg"}
                 />
                 <Block 
+                    onShowPopup={onShowPopup}
                     title={`"En tu naríz!"`}
                     txt={"Trump hace burla de Mickey Mouse, resaltando que no apoyará la creación de la Mouskeherramienta"}
                     right={true} 
@@ -25,8 +29,10 @@ export const NewsBlock = () => {
             <Line classes={"absolute abs-actual-middle"} height={"0.5px"}/>
             <div className={"width h-50 flex row"}>
                 <Block
+                    onShowPopup={onShowPopup}
                 />
                 <Block 
+                    onShowPopup={onShowPopup}
                     right={true}
                 />
             </div>
@@ -35,6 +41,7 @@ export const NewsBlock = () => {
 }
 
 export const Block = ({
+    onShowPopup,
     right = false,
     title = "Cayo en cana papanuel",
     txt = "Testigos dicen que se estaba choreando los regalos enfrente de los niños",
@@ -42,7 +49,7 @@ export const Block = ({
 }) => {
     return (
         <div className={`height w-50 flex ${right? "justify-right" : ""}`}>
-            <SmallNews imgsrc={imgsrc} text={txt} title={title} />
+            <SmallNews onShowPopup={onShowPopup} imgsrc={imgsrc} text={txt} title={title} />
         </div>
     )
 }

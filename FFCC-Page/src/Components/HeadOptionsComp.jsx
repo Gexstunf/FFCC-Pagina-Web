@@ -37,7 +37,7 @@ export const HeadOptions = () => {
                         <div key={i} className="item font-responsive-small">{text}</div>
                     ))}
                 </div>
-                <p className={"font-responsive-small flex absolute abs-right abs-middle"}>Miércoles, 15 de Octubre de 2025</p>
+                <p className={"font-responsive-small flex absolute abs-right abs-middle"}>Miércoles, 15 de Octubre de 1946</p>
             </div>
         </div>
     )

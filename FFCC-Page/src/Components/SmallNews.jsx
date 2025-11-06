@@ -3,11 +3,16 @@ import react from "react"
 export const SmallNews = ({
     imgsrc="",
     title="",
-    text =""
+    text ="",
+    onShowPopup,
                           }) => {
 
     const imgStyle = {
         objectFit: "fill",
+    }
+
+    const handleClick = () => {
+        onShowPopup();
     }
 
     const letterStyle = {
@@ -20,7 +25,7 @@ export const SmallNews = ({
     }
 
     return (
-        <div className={"w-95 height pointer"}>
+        <div className={"w-95 height pointer"} onClick={handleClick}>
             <img
                 style={imgStyle}
                 src={imgsrc}

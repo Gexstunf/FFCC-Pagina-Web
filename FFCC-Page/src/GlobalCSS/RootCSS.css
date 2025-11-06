@@ -19,6 +19,10 @@
     width: 100%;
 }
 
+.ease-in-out {
+    transition: all 0.3s ease-in-out;
+}
+
 .m-0 {
     margin: 0 !important;
 }
