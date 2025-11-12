@@ -67,8 +67,8 @@ export const NewsBlock = ({
     }
 
     const notaNada = {
-        notaText: "Los textos estan malos.",
-        notaTitle: "Los textos estan feos pq necesitaria formatearlos....",
+        notaText: "Noticia en progreso.",
+        notaTitle: "Trabajando lo mas rapido para que estes bien informado...",
         date: "2025, 6 de Noviembre, Jueves, 3:54"
     }
     
