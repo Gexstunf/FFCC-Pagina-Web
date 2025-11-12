@@ -15,17 +15,14 @@ export const HeadOptions = () => {
         "Javier Milei",
         "Elecciones 2025",
         "Israel-Hamas",
-        "Puto el que lee",
         "Aeroparque",
         "Explosión Palermo",
         "Horóscopo Hoy",
         "Argentina vs Colombia",
-        "Nashee",
         "IDEA",
         "Mar del Plata",
         "Cayo en cana",
         "Papanuel",
-        "Skibidi",
     ];
     
     return (
